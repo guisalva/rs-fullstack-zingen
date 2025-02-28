@@ -22,17 +22,17 @@
   --brand-color-primary: #f7b733;
   --brand-color-secondary: #fc4a1a;
 
-  --font-family-sans: "Inter", system-ui, sans-serif;
+  --ff-sans: "Inter", system-ui, sans-serif;
 
-  --font-weight-base: 400;
-  --font-weight-medium: 500;
-  --font-weight-bold: 800;
+  --fw-regular: 400;
+  --fw-md: 500;
+  --fw-bold: 800;
 
-  --font-size-sm: 0.875rem;
-  --font-size-md: 1rem;
-  --font-size-lg: 1.25rem;
-  --font-size-xl: 1.5rem;
-  --font-size-2xl: 2.5rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2.5rem;
 
   --py-md: 1rem;
   --py-lg: 1.5rem;
@@ -42,9 +42,9 @@
 }
 
 html {
-  font-family: var(--font-family-sans);
-  font-weight: var(--font-weight-base);
-  font-size: var(--font-size-md);
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-md);
   line-height: 1.6;
   color: var(--text-color-primary);
 }
@@ -58,18 +58,18 @@ h2,
 h3 {
   line-height: 1.2;
   color: var(--text-color-primary);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--fw-bold);
   letter-spacing: -0.04em;
 }
 
 h1 {
-  font-size: var(--font-size-2xl);
+  font-size: var(--fs-2xl);
 }
 h2 {
-  font-size: var(--font-size-xl);
+  font-size: var(--fs-xl);
 }
 h3 {
-  font-size: var(--font-size-lg);
+  font-size: var(--fs-lg);
 }
 
 a {
@@ -83,9 +83,9 @@ ul[role="list"] {
 
 @media (width >= 80em) {
   :root {
-    --font-size-lg: 2rem;
-    --font-size-xl: 3rem;
-    --font-size-2xl: 4rem;
+    --fs-lg: 2rem;
+    --fs-xl: 3rem;
+    --fs-2xl: 4rem;
 
     --py-md: 1.5rem;
     --py-lg: 2.5rem;
