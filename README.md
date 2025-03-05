@@ -7,8 +7,8 @@ Preview do projeto desenvolvido.
 
 
 <div>
-  <img src="https://github.com/user-attachments/assets/be17ea0a-6cd3-4444-8f39-47b5f5932410" height="400">
-  <img src="https://github.com/user-attachments/assets/30712ef8-e68b-409b-8a89-b4fbfacb686c" height="400">
+  <img src="https://github.com/user-attachments/assets/be17ea0a-6cd3-4444-8f39-47b5f5932410" height="340">
+  <img src="https://github.com/user-attachments/assets/30712ef8-e68b-409b-8a89-b4fbfacb686c" height="340">
 </div>
 
    
